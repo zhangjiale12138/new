@@ -7,7 +7,7 @@ const Search = Input.Search;
 
 class NavSec extends Component {
     state = {
-        current: 'mail',
+        current: 'eyeglasses',
       }
     
       handleClick = (e) => {
@@ -26,13 +26,13 @@ class NavSec extends Component {
         onClick={this.handleClick}
         selectedKeys={[this.state.current]}
         mode="horizontal">
-        <Menu.Item key="mail">
+        <Menu.Item key="eyeGlasses">
           EYEGLASSES
         </Menu.Item>
         <Menu.Item >
           SUNGLASSES
         </Menu.Item>
-        <Menu.Item key='alipay'>
+        <Menu.Item key='dailyNew'>
         <a href='https://www.firmoo.com/new-arrivals.html' target="_blank" rel="noopener noreferrer"> DAILY NEW </a>
         </Menu.Item>
         <Menu.Item >

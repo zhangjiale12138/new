@@ -1,0 +1,50 @@
+.glass{
+    width:1230px;
+    margin:30px auto;
+    zoom:1;
+}
+.glass .item{
+
+width:400px;
+margin: 0;
+float: left;
+margin: 0 5px;
+}
+
+.glass::after{
+    display:block;
+    clear:both;
+    content:" ";
+    visibility:hidden;
+    height:0;
+ 
+}
+　   
+
+.glass .item div{
+width:100%;
+}
+.glass .item .pic img{
+width:340px;
+height:170px;
+margin: 0 35px;
+}
+.glass .item .price p{
+margin: 0;
+text-align: center;
+}
+.glass .item .dot p{
+    margin: 0;
+    text-align: center;
+}
+.glass .item .dot p span{
+ background-color: gray;
+ display: inline-block;
+ width: 10px;
+ height:10px;
+ 
+ border-radius: 50%;
+ margin-left: 10px;
+
+
+}

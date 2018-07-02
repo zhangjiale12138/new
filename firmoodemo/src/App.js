@@ -4,6 +4,10 @@ import './App.css';
 
 import NavFirst from './components/NavFirst';
 import NavSec from './components/NavSec';
+import Scanf from './components/Scanf';
+import Glasses from './components/Glasses';
+import Kinds from './components/Kinds';
+import AndMe from './components/AndMe';
 import { Carousel } from 'antd';
 import a from './img/01.jpg';
 import b from './img/02.jpg';
@@ -25,6 +29,10 @@ class App extends Component {
         <div><img src={d} alt='' /></div>
         <div><img src={e} alt='' /></div>
         </Carousel>
+        <Scanf />
+        <Glasses />
+        <Kinds />
+        <AndMe />
       </div>
     );
   }
