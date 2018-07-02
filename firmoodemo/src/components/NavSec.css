@@ -1,0 +1,16 @@
+.NavSec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavSec .logo,.navBar,.scanf{
+display: inline;
+}
+.NavSec .navBar ul,li{
+display: inline;
+}
+.NavSec .navBar ul{
+    
+    display: flex;
+    justify-content: space-around;
+}

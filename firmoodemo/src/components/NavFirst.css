@@ -1,0 +1,24 @@
+.nav{
+    background-color: black;
+    color: aliceblue;
+    width:100%;
+    height:40px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+
+}
+.nav .leftSide {
+    margin: 0;
+}
+.nav .rightSide{
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.nav .rightSide li{
+    display: inline;
+}
