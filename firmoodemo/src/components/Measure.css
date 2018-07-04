@@ -1,0 +1,31 @@
+.measure{
+    width:1230px;
+    margin: 20px auto;
+}
+.measure .pic{
+
+ display: flex;
+ justify-content: space-around;
+
+}
+.measure .pic .font{
+
+    font-size: 18px;
+    font-weight:bold;
+    color:rgb(0, 0, 0);
+}
+.measure .pic .font span{
+
+   color: gray;
+   font-weight: initial!important;
+}
+.measure .pic div{
+
+   text-align: center;
+   border: solid 1px white;
+
+}
+.measure .pic div:hover{
+  cursor: pointer;
+  border-color:blue;
+}

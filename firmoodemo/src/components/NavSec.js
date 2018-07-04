@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Input}from 'antd';
+import {Input,Icon}from 'antd';
 import {Menu} from 'antd';
 import './NavSec.css';
 import logo from '../img/logo.png';
@@ -27,10 +27,10 @@ class NavSec extends Component {
         selectedKeys={[this.state.current]}
         mode="horizontal">
         <Menu.Item key="eyeGlasses">
-          EYEGLASSES
+          EYEGLASSES <Icon type="caret-down" style={{fontSize:5}} />
         </Menu.Item>
         <Menu.Item >
-          SUNGLASSES
+          SUNGLASSES<Icon type="caret-down" style={{fontSize:5}} />
         </Menu.Item>
         <Menu.Item key='dailyNew'>
         <a href='https://www.firmoo.com/new-arrivals.html' target="_blank" rel="noopener noreferrer"> DAILY NEW </a>
@@ -39,7 +39,7 @@ class NavSec extends Component {
          BOGO SALE
         </Menu.Item>
         <Menu.Item >
-        FEATURED STYLEDS
+        FEATURED STYLEDS <Icon type="caret-down" style={{fontSize:5}} />
         </Menu.Item>
       </Menu>
      </div>

@@ -27,7 +27,7 @@ const Item = [
   { url: k, price: 23.99 },
   { url: l, price: 23.99 }];
 const listItems = Item.map((items) => {
-  return (<div key={items.toString()} className='item'>
+  return (<div key={items.url} className='item'>
     <div className='pic'><img src={items.url} alt="" /></div>
     <div className='dot'><p><span></span><span></span><span></span></p></div>
     <div className='price'><p>${items.price}</p></div>

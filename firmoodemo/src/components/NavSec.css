@@ -1,7 +1,10 @@
 .NavSec{
+    width:1230px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 .NavSec .logo,.navBar,.scanf{
 display: inline;
@@ -13,4 +16,12 @@ display: inline;
     
     display: flex;
     justify-content: space-around;
+}
+
+ .navBar ul{
+
+   margin:0;
+}
+.NavSec .scanf{
+    margin:0;
 }

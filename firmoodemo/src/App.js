@@ -8,7 +8,9 @@ import Scanf from './components/Scanf';
 import Glasses from './components/Glasses';
 import Kinds from './components/Kinds';
 import AndMe from './components/AndMe';
-import { Carousel } from 'antd';
+import Measure from './components/Measure';
+import Footer from './components/Footer';
+import { Carousel} from 'antd';
 import a from './img/01.jpg';
 import b from './img/02.jpg';
 import c from './img/03.jpg';
@@ -19,8 +21,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-     
-        <NavFirst />
+        
+        <NavFirst name='父子通信'/>
         <NavSec />
         <Carousel autoplay>
         <div><img src={a} alt='' /></div>
@@ -33,6 +35,9 @@ class App extends Component {
         <Glasses />
         <Kinds />
         <AndMe />
+        <Measure />
+        <Footer />
+      
       </div>
     );
   }

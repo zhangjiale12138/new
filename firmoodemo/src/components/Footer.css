@@ -1,0 +1,163 @@
+.footer {
+    width:1230px;
+    margin: 0 auto;
+}
+.footer .intro{
+
+  text-align: center;
+  margin-bottom:50px;
+
+}
+.footer .intro p:nth-of-type(1),.footer .intro p:nth-of-type(2){
+
+   color:rgb(0, 0, 0)
+
+}
+.footer .trust ul,.footer .trust p {
+  display: inline-block;
+   
+ 
+}
+.footer .trust {
+  text-align: center;
+}
+.footer .trust ul{
+margin:20px;
+
+}
+.footer .trust p a{
+  margin: 20px;
+}
+.footer .container{
+width:1060px;
+padding:0;
+margin: 0px  auto;
+
+
+}
+
+.footer .container .col-xs-12{
+  padding:0;
+}
+
+.footer .container .col-xs-12 ul{
+  margin: 0;
+  padding :0;
+}
+.footer .container .col-xs-12 ul li{
+  display: inline-block;
+  width:50%;
+
+}
+.footer .pay{
+
+ text-align: center;
+ margin-top:40px;  
+
+
+}
+.footer .cio{
+  width:1060px;
+  margin: 20px 85px;
+  padding:0;
+}
+.footer .cio ul {
+  width:100%;
+ 
+
+}
+.footer .cio ul li{
+ 
+  display: inline-block;
+  margin:2px; 
+ height:40px; 
+
+}
+.footer .cio ul li:hover{
+  cursor: pointer;
+}
+.cio2{
+  width:78px;
+  
+  background: url(../img/footer_icon.png) no-repeat;
+  background-position: 0 0;
+}
+.cio2:hover{
+  background-position: 0 -50px;
+}
+.forbes{
+  width:91px;
+   background: url(../img/footer_icon.png) no-repeat;
+  background-position: -86px 0;
+}
+.forbes:hover{
+  background-position: -86px -50px;
+}
+.entre{
+  width:121px;
+  background: url(../img/footer_icon.png) no-repeat;
+  background-position: -188px 0px;
+}
+.entre:hover{
+  background-position: -188px -50px;
+}
+.engo{
+
+  width: 111px;
+  background: url(../img/footer_icon.png) no-repeat;
+  background-position: 0 -101px;
+}
+.engo:hover{
+  background-position: 0 -146px;
+}
+.tnw{
+
+  width: 83px;
+  background: url(../img/footer_icon.png) no-repeat;
+  background-position: -116px -101px;
+}
+.tnw:hover{
+
+  background-position: -116px -146px;
+}
+.the_huffington{
+
+  width: 245px;
+  background: url(../img/footer_icon.png) no-repeat;
+  background-position: 0 -194px;
+
+}
+.the_huffington:hover{
+
+  background-position: 0 -239px;
+}
+.inc{
+  width: 108px;
+  background: url(../img/footer_icon.png) no-repeat;
+  background-position: -207px -101px;
+
+}
+.inc:hover{
+
+  background-position: -207px -146px;
+
+
+}
+.business{
+
+  width: 115px;
+  background: url(../img/footer_icon.png) no-repeat;
+  background-position: -254px -194px;
+
+}
+.business:hover{
+  background-position: -254px -239px;
+
+}
+.footer p{
+  text-align: center;
+}
+.footer p .right{
+
+  margin-left:10px;
+}

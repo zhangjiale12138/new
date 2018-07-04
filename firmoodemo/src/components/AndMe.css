@@ -79,3 +79,46 @@ font-size: 14px;
     margin-right: 10px;
     border-right: 1px solid #ccc;
 }
+.customer_show{
+  margin-top:30px;
+  width:1230px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.customer_show .left{
+
+    width:410px;
+  
+   
+}
+.customer_show .right{
+    width:820px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.customer_show .left div{
+
+    width: 410px;
+    height:395px;  padding:5px;
+    overflow: hidden;
+} 
+.customer_show .left div img {
+
+    width: 100%;
+}
+
+.customer_show .right div{
+   
+   overflow:hidden ;
+   padding:5px;
+    width: 205px;
+    height: 195px;
+    overflow: hidden;
+} 
+.customer_show .right div img{
+   
+   width:100%;
+}
